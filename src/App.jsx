@@ -2,7 +2,8 @@
 import React, { useState } from "react";
 import TodoList from "./components/TodoList";
 import AddTodo from "./components/AddTodo";
-import { Card } from "@shadcn/ui";
+// import { Card } from "@shadcn/ui";
+import {Card} from './components/ui/card';
 import './index.css';
 
 

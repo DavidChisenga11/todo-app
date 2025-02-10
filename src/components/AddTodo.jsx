@@ -1,8 +1,10 @@
 // src/components/AddTodo.jsx
 import React, { useState } from "react";
 // import { Input, Button } from "";
-import {button} from './ui/button'
-import {input} from './ui/input'
+// import {button} from './ui/button'
+// import {input} from './ui/input'
+import {Input} from './ui/input';
+import {Button} from './ui/button';
 
 const AddTodo = ({ onAdd }) => {
   const [text, setText] = useState("");
